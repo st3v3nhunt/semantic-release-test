@@ -8,4 +8,5 @@
 ## Changes for commit testing
 
 * Add new feature
-* feat!: something new and breaking\n\nBREAKING CHANGES
+* feat!: something new and breaking. Seems like `BREAKING CHANGE:` must be in
+  body for this to work, even with the exclamation
