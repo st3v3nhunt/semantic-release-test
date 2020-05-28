@@ -57,6 +57,6 @@
         }
       ]
     ],
-    "tagFormat": "v-${version}"
+    "tagFormat": "${version}"
   }
 }
