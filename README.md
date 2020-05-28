@@ -8,4 +8,4 @@
 ## Changes for commit testing
 
 * Add new feature
-* BREAKING CHANGE: something new
+* feat!: something new and breaking
