@@ -7,4 +7,5 @@
 
 ## Changes for commit testing
 
-Add new feature
+* Add new feature
+* BREAKING CHANGE: something new
