@@ -36,7 +36,7 @@
       "@semantic-release/git",
       {
         "assets": [
-          "package.json"
+          "package.json", "package-lock.json"
         ],
         "message": "chore(release): update version from ${lastRelease.version} to ${nextRelease.version} [skip ci]"
       }
