@@ -49,7 +49,7 @@
           "assets": [
             "package.json"
           ],
-          "message": "chore(release): update version in package.json from ${lastRelease} to ${nextRelease} [skip ci]"
+          "message": "chore(release): update version in package.json from ${lastRelease.version} to ${nextRelease.version} [skip ci]"
         }
       ]
     ],
