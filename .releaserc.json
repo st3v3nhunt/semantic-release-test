@@ -9,13 +9,19 @@
         "replacements": [
           {
             "files": [
-              "package.json"
+              "package.json", "package-lock.json"
             ],
-            "from": "\"version\": \".*\"",
-            "to": "\"version\": \"${nextRelease.version}\"",
+            "from": "\"semantic-release-test\",\n  \"version\": \".*\"",
+            "to": "\"semantic-release-test\",\n  \"version\": \"${nextRelease.version}\"",
             "results": [
               {
                 "file": "package.json",
+                "hasChanged": true,
+                "numMatches": 1,
+                "numReplacements": 1
+              },
+              {
+                "file": "package-lock.json",
                 "hasChanged": true,
                 "numMatches": 1,
                 "numReplacements": 1
