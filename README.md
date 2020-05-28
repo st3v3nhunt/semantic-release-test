@@ -10,3 +10,4 @@
 * Add new feature
 * feat!: something new and breaking. Seems like `BREAKING CHANGE:` must be in
   body for this to work, even with the exclamation
+* feat: new for version 3 only
