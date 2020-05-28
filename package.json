@@ -18,5 +18,12 @@
   "homepage": "https://github.com/st3v3nhunt/semantic-release-test#readme",
   "devDependencies": {
     "semantic-release": "^17.0.8"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
   }
 }
