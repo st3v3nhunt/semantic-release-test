@@ -29,18 +29,22 @@
       [
         "@google/semantic-release-replace-plugin",
         {
-          "files": ["package.json"],
-          "from": "\"version\": \".*\"",
-          "to": "\"version\": \"${nextRelease.version}\"",
-          "results": [
+          "replacements": [
             {
-              "file": "package.json",
-              "hasChanged": true,
-              "numMatches": 1,
-              "numReplacements": 1
+              "files": ["package.json"],
+              "from": "\"version\": \".*\"",
+              "to": "\"version\": \"${nextRelease.version}\"",
+              "results": [
+                {
+                  "file": "package.json",
+                  "hasChanged": true,
+                  "numMatches": 1,
+                  "numReplacements": 1
+                }
+              ],
+              "countMatches": true
             }
-          ],
-          "countMatches": true
+          ]
         }
       ],
       [
