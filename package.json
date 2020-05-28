@@ -25,7 +25,10 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@semantic-release/github",
-      "@semantic-release/git"
+      ["@semantic-release/git", {
+        "assets": ["package.json"],
+        "message": "chore(release): update version in package.json from ${lastRelease} to ${nextRelease} [skip ci]"
+      }]
     ],
     "tagFormat": "v-${version}"
   }
