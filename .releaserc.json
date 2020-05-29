@@ -2,6 +2,12 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
     "@semantic-release/github",
     [
       "@google/semantic-release-replace-plugin",
@@ -9,7 +15,8 @@
         "replacements": [
           {
             "files": [
-              "package.json", "package-lock.json"
+              "package.json",
+              "package-lock.json"
             ],
             "from": "\"semantic-release-test\",\n  \"version\": \".*\"",
             "to": "\"semantic-release-test\",\n  \"version\": \"${nextRelease.version}\"",
@@ -36,7 +43,9 @@
       "@semantic-release/git",
       {
         "assets": [
-          "package.json", "package-lock.json"
+          "CHANGELOG.md",
+          "package.json",
+          "package-lock.json"
         ],
         "message": "chore(release): update version from ${lastRelease.version} to ${nextRelease.version} [skip ci]"
       }
