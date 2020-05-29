@@ -17,6 +17,7 @@
   is used to updated `package.json` and `package-lock.json` post release
 * [Version tag format](https://semantic-release.gitbook.io/semantic-release/usage/configuration#tagformat)
   is `X.Y.Z` (dropping the `v` from the default)
+* [CHANGELOG](CHANGELOG.md) is updated with changes on every release
 
 ## Changes for commit testing
 
