@@ -19,6 +19,16 @@
   is `X.Y.Z` (dropping the `v` from the default)
 * [CHANGELOG](CHANGELOG.md) is updated with changes on every release
 
+## Notes
+
+* Using `semantic-release-replace-plugin` for the first time on a repo whilst
+  using the `results` array property might cause problems if the version number
+  in the field that would be expected to be updated is the same value as will
+  be entered. This would typically be `1.0.0`. The reason this causes problems
+  is due to the update not actually being identified as having been updated.
+  The best thing to do in this situation is to have the version field be
+  something different than what it will end up being.
+
 ## Changes for commit testing
 
 * Add new feature
@@ -30,4 +40,3 @@
 ## To do
 
 * Update `X` and `X.Y` tags on publish
-* Get `CHANGELOG` in repo working
