@@ -11,3 +11,4 @@
 * feat!: something new and breaking. Seems like `BREAKING CHANGE:` must be in
   body for this to work, even with the exclamation
 * feat: some message \n\n BREAKING CHANGE: break
+* fix: squash a bug
