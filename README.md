@@ -5,6 +5,19 @@
 
 > Repo setup for testing out [semantic-release](https://github.com/semantic-release/semantic-release)
 
+## Overview
+
+* Commit messages are linted using
+  [commitlint](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/cli)
+  against the
+  [conventional config](https://www.npmjs.com/package/@commitlint/config-conventional)
+  * Run locally with [Husky](https://www.npmjs.com/package/husky)
+  * Run for every push to the remote
+* [semantic-release-replace-plugin](https://github.com/google/semantic-release-replace-plugin)
+  is used to updated `package.json` and `package-lock.json` post release
+* [Version tag format](https://semantic-release.gitbook.io/semantic-release/usage/configuration#tagformat)
+  is `X.Y.Z` (dropping the `v` from the default)
+
 ## Changes for commit testing
 
 * Add new feature
