@@ -1,3 +1,10 @@
+## [4.2.1](https://github.com/st3v3nhunt/semantic-release-test/compare/4.2.0...4.2.1) (2020-05-29)
+
+
+### Bug Fixes
+
+* remove unused file ([3da4814](https://github.com/st3v3nhunt/semantic-release-test/commit/3da481410f295501e4808741f7079e6da0583622))
+
 # [4.2.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.1.0...4.2.0) (2020-05-29)
 
 
