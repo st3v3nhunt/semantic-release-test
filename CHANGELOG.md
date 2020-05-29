@@ -1,3 +1,11 @@
+# [4.2.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.1.0...4.2.0) (2020-05-29)
+
+
+### Features
+
+* add maintenance branches to run release on ([a9ed6fe](https://github.com/st3v3nhunt/semantic-release-test/commit/a9ed6fe0c5a98d8bde6577035436ff2fc6a12a37))
+* use specific message for updates to CHANGELOG ([6d65483](https://github.com/st3v3nhunt/semantic-release-test/commit/6d65483421eae92a9d0a814c38eae3c108c665ca))
+
 # [4.1.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.0.0...4.1.0) (2020-05-29)
 
 
