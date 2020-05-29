@@ -3,7 +3,7 @@ name: Commitlint
 on: push
 
 jobs:
-  release:
+  commitlint:
     name: Commitlint
     runs-on: ubuntu-latest
     steps:
