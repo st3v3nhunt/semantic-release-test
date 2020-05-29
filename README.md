@@ -12,3 +12,8 @@
   body for this to work, even with the exclamation
 * feat: some message \n\n BREAKING CHANGE: break
 * fix: squash a bug
+
+## To do
+
+* Update `X` and `X.Y` tags on publish
+* Get `CHANGELOG` in repo working
