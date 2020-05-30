@@ -31,11 +31,3 @@
   is due to the update not actually being identified as having been updated.
   The best thing to do in this situation is to have the version field be
   something different than what it will end up being.
-
-## Changes for commit testing
-
-* Add new feature
-* feat!: something new and breaking. Seems like `BREAKING CHANGE:` must be in
-  body for this to work, even with the exclamation
-* feat: some message \n\n BREAKING CHANGE: break
-* fix: squash a bug
