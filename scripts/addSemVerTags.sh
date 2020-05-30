@@ -2,14 +2,15 @@
 
 TAG=$1
 SHA=$2
-echo "$TAG" "$SHA"
-X=$(echo "$TAG" | cut -d. -f1)
-Y=$(echo "$TAG" | cut -d. -f1,2)
-echo "$X"
-echo "$Y"
-echo git push origin ":refs/tags/$Y"
-echo git tag -f "$Y" "$SHA"
-echo git push origin "$Y"
-echo git push origin ":refs/tags/$X"
-echo git tag -f "$X" "$SHA"
-echo git push origin "$X"
+MAJOR=$(echo "$TAG" | cut -d. -f1)
+MINOR=$(echo "$TAG" | cut -d. -f1,2)
+
+echo "Updating MINOR ($MINOR) tag to point to $SHA"
+git push origin ":refs/tags/$MAJOR"
+git tag -f "$MAJOR" "$SHA"
+git push origin "$MAJOR"
+
+echo "Updating MINOR ($MINOR) tag to point to $SHA"
+git push origin ":refs/tags/$MINOR"
+git tag -f "$MINOR" "$SHA"
+git push origin "$MINOR"
