@@ -40,3 +40,9 @@
 ## To do
 
 * Update `X` and `X.Y` tags on publish
+  * Use `@semantic-release/exec`
+  * Once the release to GitHub has been made, update the tag for both `X` and
+    `X.Y`. This will involve:
+    * deleting the existing tag - `git push origin :refs/tags/$tag`
+    * creating the new tag - `git tag -f $tag $commitSha`
+    * pushing the new tag to the remote - `git push origin $tag`
