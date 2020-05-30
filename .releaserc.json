@@ -10,6 +10,12 @@
     ],
     "@semantic-release/github",
     [
+      "@semantic-release/exec",
+      {
+      "publishCmd": "./scripts/addSemVerTags.sh ${nextRelease.gitTag} ${nextRelease.gitHead}"
+      }
+    ],
+    [
       "@google/semantic-release-replace-plugin",
       {
         "replacements": [
