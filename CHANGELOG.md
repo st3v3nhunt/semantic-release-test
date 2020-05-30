@@ -1,3 +1,15 @@
+# [4.3.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.2.0...4.3.0) (2020-05-30)
+
+
+### Bug Fixes
+
+* remove unused file ([3da4814](https://github.com/st3v3nhunt/semantic-release-test/commit/3da481410f295501e4808741f7079e6da0583622))
+
+
+### Features
+
+* add X & X.Y tagging on release ([8ee146a](https://github.com/st3v3nhunt/semantic-release-test/commit/8ee146af391c7c015d3620edd4f4d267b14364ab))
+
 ## [4.2.1](https://github.com/st3v3nhunt/semantic-release-test/compare/4.2.0...4.2.1) (2020-05-29)
 
 
