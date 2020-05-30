@@ -1,3 +1,10 @@
+# [4.4.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.3.0...4.4.0) (2020-05-30)
+
+
+### Features
+
+* run SemVer tagging script ([94bb232](https://github.com/st3v3nhunt/semantic-release-test/commit/94bb2321f0ba091b53dcb404f3a010d76e0e3b4a))
+
 # [4.3.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.2.0...4.3.0) (2020-05-30)
 
 
