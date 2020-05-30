@@ -18,6 +18,9 @@
 * [Version tag format](https://semantic-release.gitbook.io/semantic-release/usage/configuration#tagformat)
   is `X.Y.Z` (dropping the `v` from the default)
 * [CHANGELOG](CHANGELOG.md) is updated with changes on every release
+* Using [@semantic-release/exec](https://github.com/semantic-release/exec)
+  plugin `X` (`MAJOR`) and `X.Y` (`MINOR`) tags are updated to point the `SHA`
+  of the latest release on every release
 
 ## Notes
 
@@ -36,13 +39,3 @@
   body for this to work, even with the exclamation
 * feat: some message \n\n BREAKING CHANGE: break
 * fix: squash a bug
-
-## To do
-
-* Update `X` and `X.Y` tags on publish
-  * Use `@semantic-release/exec`
-  * Once the release to GitHub has been made, update the tag for both `X` and
-    `X.Y`. This will involve:
-    * deleting the existing tag - `git push origin :refs/tags/$tag`
-    * creating the new tag - `git tag -f $tag $commitSha`
-    * pushing the new tag to the remote - `git push origin $tag`
