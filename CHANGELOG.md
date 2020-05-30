@@ -1,3 +1,10 @@
+# [4.5.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.4.0...4.5.0) (2020-05-30)
+
+
+### Features
+
+* not really but still testing ([ce182e3](https://github.com/st3v3nhunt/semantic-release-test/commit/ce182e378f444ebee644cd50f93d29efb4fc8fc5))
+
 # [4.4.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.3.0...4.4.0) (2020-05-30)
 
 
