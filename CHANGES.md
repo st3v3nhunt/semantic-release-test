@@ -1,1 +1,2 @@
 * fix: something
+* feat: feature
