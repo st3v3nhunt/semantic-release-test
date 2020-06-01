@@ -1,3 +1,16 @@
+# [4.6.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.5.0...4.6.0) (2020-06-01)
+
+
+### Bug Fixes
+
+* adding a fix ([0dd00b6](https://github.com/st3v3nhunt/semantic-release-test/commit/0dd00b67d0741054011635b57844ad83f9a26574))
+
+
+### Features
+
+* a new feature ([453d829](https://github.com/st3v3nhunt/semantic-release-test/commit/453d8294d15021b579a4215c1cd189e60f7eea90))
+* a new feature - 2 ([f5696e6](https://github.com/st3v3nhunt/semantic-release-test/commit/f5696e625fe3bead12169bec67bf186b0d726655))
+
 # [4.5.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.4.0...4.5.0) (2020-05-30)
 
 
