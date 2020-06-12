@@ -1,3 +1,10 @@
+# [4.7.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.6.0...4.7.0) (2020-06-12)
+
+
+### Features
+
+* run git secret scan on pre-commit ([51c27cd](https://github.com/st3v3nhunt/semantic-release-test/commit/51c27cdd325aa3a6f43285ecac838fcba187debf))
+
 # [4.6.0](https://github.com/st3v3nhunt/semantic-release-test/compare/4.5.0...4.6.0) (2020-06-01)
 
 
